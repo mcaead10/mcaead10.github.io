@@ -54,6 +54,7 @@ function cv() {
 }
 
 function projects() {
+  $(document).ready(function () {
     $("#content").html("<div class='col-xs-12 col-md-12'><h1>Projets</h1></div>\
       <div class='col-xs-12 col-md-12'><h2>Pour voir le code source de mes projets, visitez ma page <a href='https://www.github.com/mcaead10' target='_blank'>Github</a></h2></div>\
       <div class='col-xs-12 col-md-12'><h4><a href='https://github.com/mcaead10/FoodTruckLocator' target='_blank'>Foodturck Locator</a></h4></div>\
@@ -62,8 +63,8 @@ function projects() {
       grâce au Portail de Données Ouvertes de la ville de Montréal</p></div>\
       <div class='col-xs-12 col-md-12'><h4><a href='https://github.com/mcaead10/path_finding' target='_blank'>Path Finding</a></h4></div>\
       <div class='col-xs-12 col-md-12'><p class='descrpition'>Réalisée dans le cadre d’un cours de structures de données. Implémente l’algorithme de Dijkstra.\
-      Les objets, graphes et coordonnées géographiques ont été créés avec la librairie standard C++.</p></div>\
-        ");
+      Les objets, graphes et coordonnées géographiques ont été créés avec la librairie standard C++.</p></div>");
+    });
 }
 
 
